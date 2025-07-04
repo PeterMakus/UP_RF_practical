@@ -3,12 +3,13 @@ Receiver Functions are one way to get an idea of some of the properties in the S
 
 In practice, we can use receiver functions to infer depth and position of **discrete boundaries** of **elastic** material properties. They work well for sudden strong changes in velocity and density. They are not very informative for smooth transitions, for which seismologists tend to use so-called tomographies. Changes in material properties that do not have any influence on mass density or the wave's velocity/phase speed will not be visible
 ## Before the Practical: Installation and preparation
-To make this practical go as smooth as possible, please install some programs and download the sample data before coming to the lecture.
+To make this practical go as smooth as possible, please install some programs and download the sample data **before** coming to the lecture.
 
-Here is the list of resources:
+Follow these steps:
 
-1. Download the installation files from GitHub (here): 
-1. Install miniforge or anaconda: you can find the instructions on how to install minforge for your operating system here: [https://conda-forge.org/download/](https://conda-forge.org/download/). We use this environment to easily install and remove python packages and manage installations.
-2. Open a terminal (on Windows: search for ``cmd`` and execute; on Linux/Mac: open ``terminal``). Navigate to you downloads folder with ``cd /path/to/the/what/you/downloaded/above`` Now type: ``conda create -f environment.yml`` and press enter. This will take a small moment.
-3. Now, we type ``conda activate rf-practical`` to switch to the new environment.
-4. Start Jupyter: Type ``jupyter notebook`. You can open the exercise notebook.
+1. Download the installation files from GitHub [https://github.com/PeterMakus/UP_RF_practical/tree/main](https://github.com/PeterMakus/UP_RF_practical/tree/main)
+2. Install miniforge or anaconda: you can find the instructions on how to install minforge for your operating system here: [https://conda-forge.org/download/](https://conda-forge.org/download/). We use this environment to easily install and remove python packages and manage installations.
+3. Open a terminal (on Windows: search for ``cmd`` and execute; on Linux/Mac: open ``terminal``). Navigate to you downloads folder with ``cd /path/to/the/what/you/downloaded/above`` Now type: ``conda create -f environment.yml`` and press enter. This will take a small moment.
+4. Now, we type ``conda activate rf-practical`` to switch to the new environment.
+5. Extract the ``database.zip``file in the directory.
+6. Start Jupyter: Type ``jupyter notebook`. You can open the exercise notebook.

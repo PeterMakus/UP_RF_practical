@@ -1,0 +1,5 @@
+*.mseed
+*.sac
+**log**
+*.xml
+database/**

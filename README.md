@@ -7,7 +7,7 @@ To make this practical go as smooth as possible, please install some programs an
 
 Here is the list of resources:
 
-1. Download the installation files from GitHub: 
+1. Download the installation files from GitHub (here): 
 1. Install miniforge or anaconda: you can find the instructions on how to install minforge for your operating system here: [https://conda-forge.org/download/](https://conda-forge.org/download/). We use this environment to easily install and remove python packages and manage installations.
 2. Open a terminal (on Windows: search for ``cmd`` and execute; on Linux/Mac: open ``terminal``). Navigate to you downloads folder with ``cd /path/to/the/what/you/downloaded/above`` Now type: ``conda create -f environment.yml`` and press enter. This will take a small moment.
 3. Now, we type ``conda activate rf-practical`` to switch to the new environment.

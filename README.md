@@ -12,4 +12,4 @@ Follow these steps:
 3. Open a terminal (on Windows: search for ``cmd`` and execute; on Linux/Mac: open ``terminal``). Navigate to you downloads folder with ``cd /path/to/the/what/you/downloaded/above`` Now type: ``conda create -f environment.yml`` and press enter. This will take a small moment.
 4. Now, we type ``conda activate rf-practical`` to switch to the new environment.
 5. Extract the ``database.zip``file in the directory.
-6. Start Jupyter: Type ``jupyter notebook`. You can open the exercise notebook.
+6. Start Jupyter: Type ``jupyter notebook``. You can open the exercise notebook.
